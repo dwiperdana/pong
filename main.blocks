@@ -1,0 +1,52 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="+}TAxttR]rU+/=Y?tHPS">mySprite</variable><variable type="KIND_SpriteKind" id="cU$[.-Gp!9]f`klyJG2!">Player</variable><variable type="KIND_SpriteKind" id="2}f,7bEzxJp4o*.*:.;o">Projectile</variable><variable type="KIND_SpriteKind" id="TmQ@qzv30d_UvKe!B{av">Food</variable><variable type="KIND_SpriteKind" id="upI`KSrOiYtp1?k5le@h">Enemy</variable></variables><block type="pxt-on-start" x="0" y="0"><statement name="HANDLER"><block type="variables_set"><field name="VAR" id="+}TAxttR]rU+/=Y?tHPS">mySprite</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . 3 3 3 3 3 . . . . 
+. . . . . 3 3 . . . . 3 3 . . . 
+. . . . 3 . . 3 . 3 . . 3 . . . 
+. . . 3 3 . . . . . . . 3 3 . . 
+. . . 3 . . 3 . . . 3 . . 3 . . 
+. . . 3 . . 3 . . 3 3 . . 3 . . 
+. . . 3 . . 3 3 3 3 . . . 3 . . 
+. . . . 3 . . 3 3 . . . . 3 . . 
+. . . . 3 3 . . . . . . 3 . . . 
+. . . . . 3 3 3 3 3 3 3 3 . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind"><field name="MEMBER">Player</field></shadow></value></block></value></block></statement></block><block type="keyonevent" x="0" y="180"><field name="button">controller.A</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="spritesetimage"><value name="sprite"><block type="variables_get"><field name="VAR" id="+}TAxttR]rU+/=Y?tHPS">mySprite</field></block></value><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . 5 5 5 5 5 . . . . 
+. . . . . 5 5 . . . . 5 5 . . . 
+. . . . 5 . . 5 . 5 . . 5 . . . 
+. . . 5 5 . . . . . . . 5 5 . . 
+. . . 5 . . 5 . . . 5 . . 5 . . 
+. . . 5 . . 5 . . 5 5 . . 5 . . 
+. . . 5 . . 5 5 5 5 . . . 5 . . 
+. . . . 5 . . 5 5 . . . . 5 . . 
+. . . . 5 5 . . . . . . 5 . . . 
+. . . . . 5 5 5 5 5 5 5 5 . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field></shadow></value></block></statement></block><block type="keyonevent" x="0" y="360"><field name="button">controller.B</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="spritesetimage"><value name="sprite"><block type="variables_get"><field name="VAR" id="+}TAxttR]rU+/=Y?tHPS">mySprite</field></block></value><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . 3 3 3 3 3 . . . . 
+. . . . . 3 3 . . . . 3 3 . . . 
+. . . . 3 . . 3 . 3 . . 3 . . . 
+. . . 3 3 . . . . . . . 3 3 . . 
+. . . 3 . . 3 . . . 3 . . 3 . . 
+. . . 3 . . 3 . . 3 3 . . 3 . . 
+. . . 3 . . 3 3 3 3 . . . 3 . . 
+. . . . 3 . . 3 3 . . . . 3 . . 
+. . . . 3 3 . . . . . . 3 . . . 
+. . . . . 3 3 3 3 3 3 3 3 . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field></shadow></value></block></statement></block></xml>
